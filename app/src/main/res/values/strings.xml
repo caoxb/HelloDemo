@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HelloDemo</string>
+    <string name="tv_first_demo">这里是我们的第一个Android实例</string>
 </resources>
