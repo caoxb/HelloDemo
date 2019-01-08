@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView android:text="编号" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="名称" />
+
+        <EditText android:id="@+id/etName" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="单价" />
+
+        <EditText android:id="@+id/etPrice" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="描述" />
+
+        <EditText android:id="@+id/etDestription" />
+    </TableRow>
+
+    <Button
+
+        android:id="@+id/btnOp"
+        android:onClick="doClick" />
+
+</TableLayout>
