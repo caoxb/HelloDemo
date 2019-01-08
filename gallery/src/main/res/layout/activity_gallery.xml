@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <ImageView
-        android:id="@+id/ivPic"
+    <ImageSwitcher
+        android:id="@+id/isPic"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY" />
+        android:layout_height="match_parent" />
 
     <Gallery
         android:id="@+id/galThumb"
